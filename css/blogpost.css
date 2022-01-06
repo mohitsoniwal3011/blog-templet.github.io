@@ -1,0 +1,74 @@
+.post-img img{
+    width: 100%;
+    height: 300px;
+}
+
+.blog-post-content h1{
+    text-align: center;
+}
+
+
+.more-articles{
+    display: flex;
+}
+
+.more-post{
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-more-article-content{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+ 
+}
+.blog-more-article-content a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px ;
+}
+.more-post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-more-article-content span{
+    padding: 5px 0;
+}
+
+.blog-more-posts h2{
+    padding: 15px ;
+}
+
+.blog-post-meta{
+    /* height: 30px; */
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-info div{
+    margin: 8px 0;
+    font-family: var(--font2)
+}
+
+.links img{
+    width: 30px ;
+    height: 30px;
+    /* border-radius: 20px; */
+    margin: 0  5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#linkedin{
+    border-radius: 20px;
+}
+
